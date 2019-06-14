@@ -1,0 +1,6 @@
+print("hello_world")
+print("vuminhdiep_18")
+print("abc")
+number_1 = int(input('3'))
+number_2 = int(input('5'))
+print(number_1 + number_2)
