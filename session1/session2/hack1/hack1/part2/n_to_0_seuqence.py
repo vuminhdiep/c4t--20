@@ -1,8 +1,10 @@
-n = int(input("Nhap so le n vao day"))
+n = int(input("Nhap so n vao day"))
+
 if n%2==1:
-    print("So le")
+    for i in range(n, 0, -2):
+        print(i)
 else:
-    print("So chan")
-while n >= 0:
-    print(n)
-    n -= 2
+    for i in range(n-1, 0, -2):
+        print(i)
+
+     

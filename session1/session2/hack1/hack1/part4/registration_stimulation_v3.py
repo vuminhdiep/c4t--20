@@ -4,7 +4,7 @@ while True:
     email = input("Nhap email vao day")
     print(email)
     print(int(len(email)))
-    if len(email) >= 8 and "@" and "." in email:
+    if len(email) >= 8 and "@" in email and "." in email:
         print("Valid")
         break
     else:

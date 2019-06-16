@@ -1,3 +1,4 @@
 import calendar
-n = int(input("Nhap so thang vao day"))
-print(calendar.monthrange(2019, n))
+m = int(input("Nhap so thang vao day"))
+y = int(input("Nhap so nam vao day "))
+print(calendar.monthrange(y, m)[1])
